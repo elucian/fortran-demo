@@ -1,10 +1,8 @@
+! conditional loop
 program loop
-  implicit none
-integer:: i = 0
-
-do while (i<10)
+  integer:: i = 0
+  do while (i<5)
   print *, i
-  i = i + 1
-end do
-
+    i = i + 1
+  end do
 end program
