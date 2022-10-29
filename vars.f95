@@ -6,6 +6,7 @@ program variables
   complex :: frequency
   character :: initial
   logical :: isOkay
+  character(len=20):: str
 
   amount = 10
   pi = 3.1415927
@@ -15,5 +16,9 @@ program variables
 
   print *, amount
   print *, pi
-  print *, isOkay
+  print *, initial
+  print *, isOkay, .true.
+
+  str = "Fortran is cool"
+  print *, str
 end program variables
