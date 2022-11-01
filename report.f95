@@ -10,7 +10,7 @@ program main
        close(io, status="delete", iostat=stat)  
     end if
   end if
-  !create new file log.txt
+  !create new file report.txt
   open(newunit=io, file="report.txt", &
        status="new", action="write")
   do i=1,10
