@@ -1,5 +1,6 @@
 program parallel
   parameter ( n = 100000 )
+  ! declare coarray
   real:: v(n)[*]
   real:: d,t1,t2 
   call cpu_time(t1)
